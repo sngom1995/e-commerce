@@ -1,5 +1,9 @@
 pipeline {
-   agent { docker { image 'maven:3.3.3' } }
+    agent any
+     tools {
+            maven 'Maven 3.3.9'
+            jdk 'jdk8'
+      }
     stages {
         stage('Build') {
             steps {

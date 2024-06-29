@@ -1,0 +1,7 @@
+2024-06-29T15:13:34.599+0000 INFO Starting SareetaApplication on sambas-mbp.home with PID 46625 (/Users/badou/developpement/e-commerce/target/classes started by samba in /Users/badou/developpement/e-commerce)
+2024-06-29T15:13:34.604+0000 INFO No active profile set, falling back to default profiles: default
+2024-06-29T15:13:37.146+0000 INFO Started SareetaApplication in 2.724 seconds (JVM running for 9.124)
+2024-06-29T15:13:49.989+0000 INFO Create user samba
+2024-06-29T15:13:50.110+0000 ERROR Error - Either length is less than 7 or pass and conf pass do not match. Unable to create 
+2024-06-29T15:14:02.111+0000 INFO Create user samba
+2024-06-29T15:14:02.244+0000 INFO User created
