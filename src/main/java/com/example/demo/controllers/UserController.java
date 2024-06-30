@@ -1,10 +1,13 @@
 package com.example.demo.controllers;
 
+import com.example.demo.model.AuthResponse;
 import com.example.demo.model.persistence.Cart;
 import com.example.demo.model.persistence.User;
 import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
+import com.example.demo.model.requests.AuthRequest;
 import com.example.demo.model.requests.CreateUserRequest;
+import com.example.demo.security.GenerateJwtToken;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -61,6 +64,22 @@ public class UserController {
 		userRepository.save(user);
 		log.info("User creation successful");
 		return ResponseEntity.ok(user);
+	}
+
+	@PostMapping("/login")
+	public ResponseEntity<?> login(@RequestBody AuthRequest authRequest) {
+		log.info("Login user {}", authRequest.getUsername());
+		User user = userRepository.findByUsername(authRequest.getUsername());
+		if (user == null) {
+			return ResponseEntity.status(401).build();
+		}
+		if (!bCryptPasswordEncoder.matches(authRequest.getPassword(), user.getPassword())) {
+			return ResponseEntity.status(401).build();
+		}
+		AuthResponse authResponse = new AuthResponse();
+		String token = new GenerateJwtToken().generateToken(user);
+		authResponse.setToken(token);
+		return ResponseEntity.ok(authResponse);
 	}
 	
 }

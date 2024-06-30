@@ -14650,3 +14650,63 @@ Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
 2024-06-30T13:18:49.794+0000 INFO Started SareetaApplication in 1.894 seconds (JVM running for 2.396)
 2024-06-30T13:19:31.271+0000 INFO Create user sn
 2024-06-30T13:19:31.382+0000 INFO User creation successful
+2024-06-30T21:28:56.377+0000 INFO Starting SareetaApplication on sambas-mbp.home with PID 28883 (/Users/badou/developpement/e-commerce/target/classes started by samba in /Users/badou/developpement/e-commerce)
+2024-06-30T21:28:56.379+0000 INFO No active profile set, falling back to default profiles: default
+2024-06-30T21:28:57.904+0000 INFO Started SareetaApplication in 1.636 seconds (JVM running for 7.231)
+2024-06-30T21:29:18.661+0000 INFO Create user sn
+2024-06-30T21:29:18.849+0000 INFO User creation successful
+2024-06-30T21:31:53.647+0000 INFO Starting SareetaApplication on sambas-mbp.home with PID 29798 (/Users/badou/developpement/e-commerce/target/classes started by samba in /Users/badou/developpement/e-commerce)
+2024-06-30T21:31:53.649+0000 INFO No active profile set, falling back to default profiles: default
+2024-06-30T21:31:55.241+0000 INFO Started SareetaApplication in 1.695 seconds (JVM running for 7.304)
+2024-06-30T21:32:12.904+0000 INFO Create user sn
+2024-06-30T21:32:13.080+0000 INFO User creation successful
+2024-06-30T21:33:08.380+0000 INFO Starting SareetaApplicationTests on sambas-mbp.home with PID 30200 (started by samba in /Users/badou/developpement/e-commerce)
+2024-06-30T21:33:08.381+0000 INFO No active profile set, falling back to default profiles: default
+2024-06-30T21:33:10.241+0000 INFO Started SareetaApplicationTests in 1.929 seconds (JVM running for 2.505)
+2024-06-30T21:33:10.368+0000 INFO Removed cart from cart
+2024-06-30T21:33:10.372+0000 INFO Added item to cart
+2024-06-30T21:33:10.372+0000 ERROR User notFound; invalidUser
+2024-06-30T21:33:10.372+0000 ERROR User not found; invalidUser
+2024-06-30T21:33:10.380+0000 INFO Find user by Username test
+2024-06-30T21:33:10.381+0000 INFO Create user test
+2024-06-30T21:33:10.381+0000 INFO User creation successful
+2024-06-30T21:33:10.382+0000 INFO getItemsByName
+2024-06-30T21:33:10.382+0000 INFO getItemById
+2024-06-30T21:33:10.383+0000 INFO getItemById
+2024-06-30T21:33:10.383+0000 INFO getItemsByName
+2024-06-30T21:33:10.394+0000 INFO get orders for user fymo
+2024-06-30T21:33:10.395+0000 INFO submit user fymo
+2024-06-30T21:33:10.395+0000 INFO submit order com.example.demo.model.persistence.UserOrder@304cad3a
+2024-06-30T21:33:10.396+0000 INFO submit user invalid username
+2024-06-30T21:33:10.396+0000 INFO user not found: invalid username
+2024-06-30T21:33:10.397+0000 INFO Find user by Username test
+2024-06-30T21:33:10.397+0000 INFO Create user test
+2024-06-30T21:33:10.397+0000 INFO User creation successful
+2024-06-30T21:33:10.398+0000 INFO getItemsByName
+2024-06-30T21:33:10.398+0000 INFO getItemById
+2024-06-30T21:33:10.399+0000 INFO getItemById
+2024-06-30T21:33:10.399+0000 INFO getItemsByName
+2024-06-30T21:33:10.400+0000 INFO Removed cart from cart
+2024-06-30T21:33:10.400+0000 INFO Added item to cart
+2024-06-30T21:33:10.401+0000 ERROR User notFound; invalidUser
+2024-06-30T21:33:10.401+0000 ERROR User not found; invalidUser
+2024-06-30T21:33:10.402+0000 INFO get orders for user fymo
+2024-06-30T21:33:10.402+0000 INFO submit user fymo
+2024-06-30T21:33:10.402+0000 INFO submit order com.example.demo.model.persistence.UserOrder@24ea71d
+2024-06-30T21:33:10.403+0000 INFO submit user invalid username
+2024-06-30T21:33:10.403+0000 INFO user not found: invalid username
+2024-06-30T21:33:38.529+0000 INFO Starting SareetaApplication on sambas-mbp.home with PID 30360 (/Users/badou/developpement/e-commerce/target/classes started by samba in /Users/badou/developpement/e-commerce)
+2024-06-30T21:33:38.532+0000 INFO No active profile set, falling back to default profiles: default
+2024-06-30T21:33:40.086+0000 INFO Started SareetaApplication in 1.655 seconds (JVM running for 7.148)
+2024-06-30T21:34:23.566+0000 INFO Create user sn
+2024-06-30T21:34:23.727+0000 INFO User creation successful
+2024-06-30T21:34:37.375+0000 INFO Login user sn
+2024-06-30T21:35:13.709+0000 INFO Login user sns
+2024-06-30T21:36:57.411+0000 INFO Find user by Username sn
+2024-06-30T21:37:11.950+0000 INFO Starting SareetaApplication on sambas-mbp.home with PID 31432 (/Users/badou/developpement/e-commerce/target/classes started by samba in /Users/badou/developpement/e-commerce)
+2024-06-30T21:37:11.953+0000 INFO No active profile set, falling back to default profiles: default
+2024-06-30T21:37:13.495+0000 INFO Started SareetaApplication in 1.672 seconds (JVM running for 7.269)
+2024-06-30T21:37:54.781+0000 INFO Create user sn
+2024-06-30T21:37:54.953+0000 INFO User creation successful
+2024-06-30T21:38:12.720+0000 INFO Login user sns
+2024-06-30T21:38:25.224+0000 INFO Login user sn
